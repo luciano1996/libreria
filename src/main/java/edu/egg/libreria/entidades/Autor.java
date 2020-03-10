@@ -24,7 +24,7 @@ public class Autor  {
     @GeneratedValue(generator = "uuid")
     @GenericGenerator(name = "uuid", strategy = "uuid2")
     private String id;
-   
+   private String hola;
     private String nombre;
 
     public Autor() {
